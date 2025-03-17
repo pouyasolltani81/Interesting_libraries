@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/FilledCircle/1185818338_2339902186_2820994769.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/FilledCircle/624642324_3236798913_608799756.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/FilledCircle/624642324_448387634_219454351.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/FilledCircle/624642324_3897501453_531595680.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/FilledCircle/624642324_2094785830_3499506847.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/FilledCircle/624642324_2010974399_2626665159.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/FilledCircle/624642324_4004149306_2059448557.mp4'

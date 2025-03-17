@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/GreenCircleTick/1185818338_2166761698_223132457.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/GreenCircleTick/624642324_3201849554_2095687792.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/GreenCircleTick/624642324_2166761698_2310167258.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/GreenCircleTick/624642324_3201849554_82972884.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/GreenCircleTick/624642324_399680274_2304684140.mp4'
+file 'file:/home/pouya/Desktop/Work/Git/Interesting_libraries/Manim/media/videos/tick/480p15/partial_movie_files/GreenCircleTick/624642324_1839128356_667117606.mp4'
