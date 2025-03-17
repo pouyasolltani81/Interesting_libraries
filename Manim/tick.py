@@ -3,6 +3,7 @@ s_300 = "#73EA69"
 s_100 = "#B9F5B4"
 s_50 = "#DCFAD9"
 # manim -pql --gif beautiful_3d_circle.py Beautiful3DCircle
+# manim -r 2560,1440 --fps 120 tick.py FilledCircle
 
 class GreenCircleTick(Scene):
     def construct(self):
@@ -40,7 +41,7 @@ from manim import *
 class FilledCircle(Scene):
     def construct(self):
         # TOTAL_TIME is the overall animation duration.
-        TOTAL_TIME = 2.5
+        TOTAL_TIME = 2
         # Our planned sum of durations is 1.5 sec (circles: 0.25*3, wait: 0.1, tick: 0.15*2, final wait: 0.35)
         base_total = 1.5  
         factor = TOTAL_TIME / base_total  # scale factor
@@ -71,7 +72,7 @@ class FilledCircle(Scene):
 
         # Create the tick mark using two Lines with round caps
         tick_line1 = Line(
-            start=LEFT * 0.4 + UP * 0.3,
+            start=LEFT * 0.3 + UP * 0.2,
             end=ORIGIN,
             stroke_width=14
         )
@@ -95,17 +96,17 @@ class FilledCircle(Scene):
         self.play(
             back_circle.animate.scale(200),
             run_time=circle_duration * factor,
-            rate_func=rate_functions.smooth
+            rate_func=rate_functions.ease_in_out_circ
         )
         self.play(
             middle_circle.animate.scale(150),
             run_time=circle_duration * factor,
-            rate_func=rate_functions.smooth
+            rate_func=rate_functions.ease_in_out_circ
         )
         self.play(
             front_circle.animate.scale(100),
             run_time=circle_duration * factor,
-            rate_func=rate_functions.smooth
+            rate_func=rate_functions.ease_in_out_circ
         )
 
         self.wait(wait_after_circles * factor)
